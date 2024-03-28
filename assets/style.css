@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+/* Menu */
+.content {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5DDFF;
+}
+
+.logo {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 25px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 0.5rem;
+}
+
+.content .list-menu {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a {
+    color: #0C274E;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+}
+
+.content .list-menu li a:hover {
+    color: #FBA708;
+}
+/* Fim Menu */
+
+/*Primeira Sessão*/
+section.conteudos {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin-top: 3rem;
+    background-color: #F8F8F8;
+}
+/*Fim da Primeira Sessão*/
+
+/*pacotes*/
+
+.lista {
+   width: 65%;
+   height: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+   gap: 12rem;
+   justify-content: center;
+   row-gap: 2rem;
+}
+
+.pacotes {
+    background-color: #C5DDFF;
+    width: 348px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.pacotes:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #0C274E;
+}
+
+.pacotes header img {
+    width: 100%;
+    max-height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.pacotes h1 {
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin-top: 2rem;
+}
+
+.pacotes h1:hover {
+    color: #FBA708;
+    cursor: pointer;
+}
+
+.pacotes p {
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.pacotes footer {
+    margin-top: 60px;
+    height: 20%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/*Fim do pacotes*/
+
+/*Post*/
+.posts-recentes {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 35%;
+    justify-content: center;
+    display: flex;
+}
+
+.posts {
+    width: 313px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.posts h2 {
+    color: #06172e;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.posts ul {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0;
+}
+/*Fim de Post*/
+
+/*Barra de pesquisa*/
+.pesquisa {
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    background-color: #C5DDFF;
+    border-radius: 10px;
+}
+
+.posts label {
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+.posts input {
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #C5DDFF;
+    border-radius: 10px;
+}
+
+.pesquisa i {
+    background-color: #C5DDFF;
+    color: black;
+    height: 50px;
+    cursor: pointer;
+}
+/*Fim da Barra de pesquisa*/
+
+/*Recentes*/
+.posts-recentes ul {
+    font-size: 20px;
+}
+
+.posts-recentes ul li {
+    display: flex;
+}
+
+.posts-recentes ul li a {
+    text-decoration: none;
+    color: #0C274E;
+    margin-top: 2rem;
+    transition: 0.2s;
+}
+
+.posts-recentes ul li a:hover {
+    color: #FBA708;
+}
+/*Fim de Recentes*/
+
+/*Categorias*/
+.categorias {
+    margin-top: 18rem;
+}
+/*Fim de Categorias*/
+
+/* Outros posts */
+.btns {
+    background-color: #f3f3f3;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #0C274E;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #06172e;
+    font-weight: 500;
+}
+
+.btns:hover {
+    background-color: #0C274E;
+    color: #f3f3f3;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transform: scale(1.05);
+}
+
+/*Fim de Outros posts */

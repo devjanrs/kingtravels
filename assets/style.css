@@ -39,6 +39,7 @@ html {
     width: 100px;
     height: 100px;
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .content .list-menu {
@@ -135,6 +136,13 @@ section.conteudos {
     height: 20%;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.pacotes footer a {
+    text-decoration: none;
+    color: #06172e;
+    font-weight: 500;
+    text-decoration: underline;
 }
 /*Fim do pacotes*/
 
@@ -248,11 +256,53 @@ section.conteudos {
 }
 
 .btns:hover {
-    background-color: #0C274E;
-    color: #f3f3f3;
+    background-color: #C5DDFF;
+    color: #06172e;
+    border: 1px solid #C5DDFF;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     transform: scale(1.05);
 }
-
 /*Fim de Outros posts */
+
+/* Rodape */
+.rodape {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.direitos {
+    margin-left: 115px;
+    margin-bottom: 2rem;
+}
+
+.direitos a {
+    text-decoration: none;
+    color: #0C274E;
+    font-weight: 500;
+}
+
+.click {
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    margin-right: 65px;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.click a {
+    text-decoration: none;
+    color: #06172e;
+    transition: 0.2s;
+}
+
+.click a:hover {
+    color: #FBA708;
+}
+/*Fim do Rodape */

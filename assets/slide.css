@@ -2,10 +2,12 @@
 section.slider{
     margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 112vh;
     padding: 0 !important;
     overflow: hidden;
     background-color: #F8F8F8;
+    position: relative;
+    z-index: 10;
 }
 /*Fim da Section slider*/
 
@@ -47,6 +49,7 @@ section.slider{
     margin-top: 65rem;
     display: flex;
     justify-content: center;
+    z-index: 20;
 }
 
 .nav-manual .manual-btn, .nav-auto div{

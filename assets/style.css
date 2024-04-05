@@ -7,7 +7,6 @@
     border: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 html {
@@ -69,7 +68,7 @@ section.conteudos {
     height: auto;
     display: flex;
     margin-top: 3rem;
-    background-color: #F8F8F8;
+    background-color: #ffff;
 }
 /*Fim da Primeira Sessão*/
 
@@ -306,3 +305,27 @@ section.conteudos {
     color: #FBA708;
 }
 /*Fim do Rodape */
+
+/* btn */
+.btn {
+    font-size: 22px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.btn i {
+    cursor: pointer;
+    font-size: 45px;
+    color: aqua;
+    transition: 0.2s;
+}
+
+.btn i:hover {
+    color: #0C274E;
+}
+/*Fim do btn */

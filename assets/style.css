@@ -392,5 +392,83 @@ section.conteudos {
     .pesquisa i {
         display: none;
     }
+    .posts input {
+        font-size: 12px;
+    }
+
+    .categorias {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .content {
+        display: none;
+    }
+
+    .pacotes h1 {
+        font-size: 20px;
+    }
+
+    .pacotes p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 430px) {
+    section.conteudos {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .lista {
+        align-items: center;
+        justify-content: center;
+        margin-left: -150px;
+    }
+
+    .rodape {
+        margin-left: -50px;
+    }
+}
+
+@media (max-width: 415px) {
+    section.conteudos {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .lista {
+        align-items: center;
+        justify-content: center;
+        margin-left: -180px;
+    }
+
+    .rodape {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 380px) {
+    section.conteudos {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .lista {
+        align-items: center;
+        justify-content: center;
+        margin-left: -170px;
+    }
+
+    .rodape {
+        margin-left: -50px;
+    }
 }
 /*fim da responsividade */
